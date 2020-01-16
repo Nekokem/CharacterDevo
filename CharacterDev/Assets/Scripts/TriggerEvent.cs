@@ -1,18 +1,20 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Triggers : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public UnityEvent TriggerEnterEvent, TriggerExitEvent;
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        TriggerEnterEvent.Invoke();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit(Collider other)
     {
-        
+        TriggerExitEvent.Invoke();
     }
 }
