@@ -5,4 +5,9 @@ using UnityEngine;
 public class BehaviorID : MonoBehaviour
 {
     public NameID IdNameOBJ;
+
+    public void Work()
+    {
+        print("working??");
+    }
 }

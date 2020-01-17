@@ -6,7 +6,6 @@ using UnityEngine;
 public class IDChecker : MonoBehaviour
 {
     public List<NameID> IDNameObj;
-    /* fill list some how??*/
 
     private void OnTriggerEnter(Collider other)
     {
