@@ -12,8 +12,14 @@
         <e p="Scripts" t="Include">
           <e p="Attack.cs" t="Include" />
           <e p="BehaviorID.cs" t="Include" />
+          <e p="GameActions" t="Include">
+            <e p="GameAction.cs" t="Include" />
+            <e p="GameActionHandler.cs" t="Include" />
+            <e p="LightChanger.cs" t="Include" />
+          </e>
           <e p="Health.cs" t="Include" />
           <e p="IDChecker.cs" t="Include" />
+          <e p="LightData.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="ObjectAndMatchID.cs" t="Include" />
           <e p="TriggerEvent.cs" t="Include" />

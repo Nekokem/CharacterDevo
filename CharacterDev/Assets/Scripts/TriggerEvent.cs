@@ -4,16 +4,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Triggers : MonoBehaviour
+public class TriggerEvent : MonoBehaviour
 {
     public UnityEvent TriggerEnterEvent, TriggerExitEvent;
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         TriggerEnterEvent.Invoke();
     }
 
-    private void OnTriggerExit(Collider other)
+    public void OnTriggerExit(Collider other)
     {
         TriggerExitEvent.Invoke();
     }
