@@ -22,6 +22,9 @@
           <e p="LightData.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="ObjectAndMatchID.cs" t="Include" />
+          <e p="Practice" t="Include">
+            <e p="CharacterAttack.cs" t="Include" />
+          </e>
           <e p="TriggerEvent.cs" t="Include" />
         </e>
       </e>

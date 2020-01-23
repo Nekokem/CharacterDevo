@@ -13,9 +13,9 @@ public class Movement : MonoBehaviour
     private int jumpCount;
     public int jumpCountMax = 2;
     
-    public float controllerHeight = 50f;
+    /*public float controllerHeight = 50f;
     public bool controllerIsGrounded = true;
-    public Vector3 controllerVelocity;
+    public Vector3 controllerVelocity;*/
     
     void Start()
     {
