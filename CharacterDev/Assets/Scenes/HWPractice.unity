@@ -5049,7 +5049,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572480842}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 2.2, y: 7.12, z: -3.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5170,7 +5170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240171110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.56999993, y: -0.22000122, z: -3.3278236}
+  m_LocalPosition: {x: -10.54, y: -0.22000122, z: -3.3278236}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5253,7 +5253,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463052417}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 3.25, z: -10.204}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5273,7 +5273,6 @@ GameObject:
   - component: {fileID: 2076013009}
   - component: {fileID: 2076013008}
   - component: {fileID: 2076013014}
-  - component: {fileID: 2076013013}
   - component: {fileID: 2076013015}
   - component: {fileID: 2076013016}
   m_Layer: 0
@@ -5295,7 +5294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 653edbac7ea544c11b679001b012076f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myLight: {fileID: 572480843}
+  myLight: {fileID: 0}
 --- !u!135 &2076013009
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5362,29 +5361,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076013007}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.28, y: -0.22, z: -2.63}
+  m_LocalPosition: {x: -12.25, y: -0.22, z: -2.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 112960892}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2076013013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076013007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62987431ee5ac4aeda83eccfafe8de9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 30
-  gravity: 9.8
-  jumpSpeed: 50
-  jumpCountMax: 2
 --- !u!143 &2076013014
 CharacterController:
   m_ObjectHideFlags: 0
