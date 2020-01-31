@@ -5,33 +5,28 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterControllerPractice : MonoBehaviour
 {
-    private CharacterController Controller;
+    private Vector3 position;
+    private CharacterController controller;
 
-    public float speed = 8.0f;
-    public float jumpSpeed = 6.0f;
-    public float gravity = 10.0f;
+    public float speed = 10f;
+    public float gravity = 10f;
+    public float jumpSpeed = 20f;
     
-    private Vector3 moveDirection = Vector3.zero;
     void Start()
     {
-        Controller = GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
     }
 
-    
     void Update()
     {
-        if (Controller.isGrounded)
-        {
-            moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
-            moveDirection *= speed;
-        }
+        position.x = speed * Input.GetAxis("Horizontal");
+        position.z = speed * Input.GetAxis("Vertical");
+        position.z -= gravity;
 
-        if (Input.GetButton("Jump"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            moveDirection.y = jumpSpeed;
+            position.y = jumpSpeed;
         }
-
-        moveDirection.y = gravity * Time.deltaTime;
     }
     
 }
