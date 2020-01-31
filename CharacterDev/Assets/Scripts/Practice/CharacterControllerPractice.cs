@@ -8,9 +8,9 @@ public class CharacterControllerPractice : MonoBehaviour
     private Vector3 position;
     private CharacterController controller;
 
-    public float speed = 10f;
-    public float gravity = 10f;
-    public float jumpSpeed = 20f;
+    public int speed = 10;
+    public float gravity = 10.0f;
+    public int jumpSpeed = 20;
     
     void Start()
     {
@@ -27,6 +27,8 @@ public class CharacterControllerPractice : MonoBehaviour
         {
             position.y = jumpSpeed;
         }
+
+        controller.Move(position * Time.deltaTime);
     }
     
 }
