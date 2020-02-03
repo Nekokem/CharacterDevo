@@ -1,34 +1,35 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 
 [RequireComponent(typeof(CharacterController))]
 public class CharacterControllerPractice : MonoBehaviour
 {
-    private Vector3 position;
-    private CharacterController controller;
+   public CharacterController controller;
+   private Vector3 position;
 
-    public int speed = 10;
-    public float gravity = 10.0f;
-    public int jumpSpeed = 20;
-    
-    void Start()
-    {
-        controller = GetComponent<CharacterController>();
-    }
+   public int speed = 30;
+   public int jumpSpeed = 10;
+   private float gravity = 9.8f;
 
-    void Update()
-    {
-        position.x = speed * Input.GetAxis("Horizontal");
-        position.z = speed * Input.GetAxis("Vertical");
-        position.z -= gravity;
+   void Start()
+   {
+       GetComponent<CharacterController>();
+   }
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            position.y = jumpSpeed;
-        }
+   void Update()
+   {
+       position.x = speed * Input.GetAxis("Horizontal");
+       position.z = speed * Input.GetAxis("Vertical");
+       position.y -= gravity;
 
-        controller.Move(position * Time.deltaTime);
-    }
-    
+       if (Input.GetKeyDown(KeyCode.Space))
+       {
+           position.y = jumpSpeed;
+       }
+
+       controller.Move(position * Time.deltaTime);
+   }
 }

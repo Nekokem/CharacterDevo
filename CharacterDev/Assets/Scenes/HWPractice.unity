@@ -5088,8 +5088,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cfc8d440393143e5b56872541ad5290, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 761131158}
   speed: 10
-  gravity: 0
   jumpSpeed: 20
 --- !u!143 &761131158
 CharacterController:
