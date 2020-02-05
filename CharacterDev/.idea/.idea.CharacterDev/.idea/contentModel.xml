@@ -26,8 +26,7 @@
           <e p="Movement.cs" t="Include" />
           <e p="ObjectAndMatchID.cs" t="Include" />
           <e p="Practice" t="Include">
-            <e p="CharacterAttack.cs" t="Include" />
-            <e p="CharacterControllerPractice.cs" t="Include" />
+            <e p="CharacterMovement.cs" t="Include" />
           </e>
           <e p="TriggerEvent.cs" t="Include" />
         </e>
