@@ -10,7 +10,7 @@ public class CharacterMovement : MonoBehaviour
     private Vector3 position;
 
     public int walkSpeed = 100;
-    public int jumpSpeed = 50;
+    public int jumpSpeed = 100;
     private float gravity = 9.8f;
 
     void Start()
