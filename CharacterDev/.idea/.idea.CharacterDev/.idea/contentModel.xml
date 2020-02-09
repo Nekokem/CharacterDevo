@@ -27,8 +27,11 @@
           <e p="ObjectAndMatchID.cs" t="Include" />
           <e p="Practice" t="Include">
             <e p="AIwithNavMesh.cs" t="Include" />
+            <e p="ApplyForce.cs" t="Include" />
             <e p="CharacterAttack.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
+            <e p="UseMagic.cs" t="Include" />
+            <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="TriggerEvent.cs" t="Include" />
         </e>
