@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class IDChecker : MonoBehaviour
 {
-    public List<NameID> IDNameObj;
+    /*public List<NameID> IDNameObj;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -22,5 +22,5 @@ public class IDChecker : MonoBehaviour
                 break;
             }
         }
-    }
+    }*/
 }
