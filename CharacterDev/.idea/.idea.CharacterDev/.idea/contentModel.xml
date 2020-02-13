@@ -15,8 +15,13 @@
           <e p="Brackeys tutorials" t="Include">
             <e p="CharacterCombat.cs" t="Include" />
             <e p="CharacterStats.cs" t="Include" />
+            <e p="Interactable.cs" t="Include" />
+            <e p="ItemPickUp.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+            <e p="PlayerMotor.cs" t="Include" />
             <e p="Stat.cs" t="Include" />
           </e>
+          <e p="DoWorks.cs" t="Include" />
           <e p="GameActions" t="Include">
             <e p="GameAction.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
@@ -31,6 +36,8 @@
             <e p="NameID.cs" t="Include" />
           </e>
           <e p="LightData.cs" t="Include" />
+          <e p="MatchIDBehavior.cs" t="Include" />
+          <e p="MathFunctions.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="ObjectAndMatchID.cs" t="Include" />
           <e p="Practice" t="Include">
