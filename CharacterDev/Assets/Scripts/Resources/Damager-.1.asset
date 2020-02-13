@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2075089cf2a54d3b940b0b9851184cf, type: 3}
   m_Name: Damager-.1
   m_EditorClassIdentifier: 
-  value: -1
-  maxValue: -1
+  value: -0.1
+  maxValue: -0.1
