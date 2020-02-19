@@ -1,57 +1,56 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.Serialization;
+using Object = UnityEngine.Object;
 
-[CreateAssetMenu]
-public class FloatData : ScriptableObject
+[ExecuteInEditMode]
+[CreateAssetMenu(menuName = "Single Variables/FloatData")]
+public class FloatData : NameId
 {
-    public float value = 1f;
-    public float maxValue = 1f;
+    [FormerlySerializedAs("Value")] public float value;
 
-    public void UpdateVale(float amount)
-    {
-
-        value += amount;
-
-    }
-
-    public void SetValue(float amount)
-    {
-
-        value -= amount;
-
-    }
-
-    public void UpdateValueLimitZero(float amount)
-    {
-
-        if (value < 0)
-        {
-            value = 0;
-        }
-
-        else
-        {
-            UpdateVale(amount);
-        }
-    }
-
-    public void UpdateValueLimitZeroAndMaxValue(float amount)
-    {
-
-        if (value < maxValue)
-        {
-            UpdateVale(amount);
-        }
-        else
-        {
-            value = maxValue;
-        }
-        UpdateValueLimitZero(amount);
-
-    }
-
-    public void ChangeValue(float amount)
+    
+    public void SetValue (float amount)
     {
         value = amount;
     }
 
+    public void UpdateValue(float amount)
+    {
+        value += amount;
+    }
+
+    public void IncrementValue()
+    {
+        value ++;
+    }
+    
+    public void UpdateValue(FloatData data)
+    {
+        var newData = data as FloatData;
+        if (newData != null) value += newData.value;
+    }
+
+    public void SetValue(FloatData data)
+    {
+        var newData = data as FloatData;
+        if (newData != null) value = newData.value;
+    }
+    
+    public void CheckMinValue(float minValue)
+    {
+        if (value <= minValue)
+        {
+            value = minValue;
+        }
+    }
+
+    public void CheckMaxValue(float maxValue)
+    {
+        if (value >= maxValue)
+        {
+            value = maxValue;
+        }
+    }
 }
