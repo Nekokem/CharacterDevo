@@ -7,11 +7,20 @@
         <e p="IDs" t="Include">
           <e p="DoWork.cs" t="Include" />
           <e p="MatchID.cs" t="Include" />
-          <e p="NameID.cs" t="Include" />
         </e>
+        <e p="MatchID" t="Include">
+          <e p="BehaviorID.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
+          <e p="FloatMathSystem.cs" t="Include" />
+          <e p="MatchIDBehavior.cs" t="Include" />
+          <e p="MathFunctions.cs" t="Include" />
+          <e p="NameID.cs" t="Include" />
+          <e p="WorkSystem.cs" t="Include" />
+          <e p="WorkSystemManager.cs" t="Include" />
+        </e>
+        <e p="MathBehavior.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Attack.cs" t="Include" />
-          <e p="BehaviorID.cs" t="Include" />
           <e p="Brackeys tutorials" t="Include">
             <e p="CharacterCombat.cs" t="Include" />
             <e p="CharacterStats.cs" t="Include" />
@@ -21,7 +30,6 @@
             <e p="PlayerMotor.cs" t="Include" />
             <e p="Stat.cs" t="Include" />
           </e>
-          <e p="DoWorks.cs" t="Include" />
           <e p="GameActions" t="Include">
             <e p="GameAction.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
@@ -31,13 +39,9 @@
           <e p="IDChecker.cs" t="Include" />
           <e p="INClass" t="Include">
             <e p="AnimControl.cs" t="Include" />
-            <e p="FloatData.cs" t="Include" />
-            <e p="MathBehavior.cs" t="Include" />
-            <e p="NameID.cs" t="Include" />
+            <e p="InstanceObject.cs" t="Include" />
           </e>
           <e p="LightData.cs" t="Include" />
-          <e p="MatchIDBehavior.cs" t="Include" />
-          <e p="MathFunctions.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="ObjectAndMatchID.cs" t="Include" />
           <e p="Practice" t="Include">

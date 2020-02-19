@@ -2,5 +2,5 @@
 
 public class BehaviorID : MonoBehaviour
 {
-    public NameID nameIDObj;
+    public NameId nameIDObj;
 }
