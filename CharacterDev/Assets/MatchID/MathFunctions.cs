@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu]
-public class MathFunctions : DoWorks
+public class MathFunctions : WorkSystem
 {
     public FloatData dataObj;
     
