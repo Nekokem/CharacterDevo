@@ -4,7 +4,7 @@ public class MathBehavior : MonoBehaviour
 {
   public FloatData dataObj;
   public FloatData[] floatDataList;
-  private NameID otherNameID;
+  private NameId otherNameID;
   
   public void OnTriggerEnter(Collider other)
   {
@@ -21,7 +21,7 @@ public class MathBehavior : MonoBehaviour
     {
       if (data == otherNameID)
       {
-        dataObj.UpdateVale(data.value);
+        dataObj.UpdateValue(data.value);
       }
     }
     

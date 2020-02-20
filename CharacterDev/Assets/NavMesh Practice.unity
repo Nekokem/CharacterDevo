@@ -843,9 +843,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c9922c9ec7b4b6e8acba0591fa2ea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameIds:
-  - {fileID: 0}
-  - {fileID: 0}
-  DoWork:
-  - {fileID: 0}
-  - {fileID: 0}
+  nameIDObj: {fileID: 0}
+  workSystemManagerObj: {fileID: 0}
