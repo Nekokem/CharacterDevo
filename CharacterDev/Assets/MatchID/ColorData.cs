@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class NameID : ScriptableObject
+public class ColorData : NameId
 {
-    
+    public Color value = Color.blue;
 }

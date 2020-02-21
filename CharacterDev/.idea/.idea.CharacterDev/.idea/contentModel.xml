@@ -10,6 +10,8 @@
         </e>
         <e p="MatchID" t="Include">
           <e p="BehaviorID.cs" t="Include" />
+          <e p="ColorData.cs" t="Include" />
+          <e p="DataStorage.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FloatMathSystem.cs" t="Include" />
           <e p="MatchIDBehavior.cs" t="Include" />
