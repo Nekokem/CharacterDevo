@@ -6,7 +6,7 @@ using UnityEngine;
 public class ObjectAndMatchID : MonoBehaviour
 {
 
-    public NameID nameIDObj;
+    public NameId nameIDObj;
     
     private void OnTriggerEnter(Collider other)
     {
