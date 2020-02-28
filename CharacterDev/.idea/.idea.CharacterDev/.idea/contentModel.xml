@@ -17,6 +17,8 @@
           <e p="MatchIDBehavior.cs" t="Include" />
           <e p="MathFunctions.cs" t="Include" />
           <e p="NameID.cs" t="Include" />
+          <e p="SpriteRendererBehavior.cs" t="Include" />
+          <e p="SpriteRendererControler.cs" t="Include" />
           <e p="WorkSystem.cs" t="Include" />
           <e p="WorkSystemManager.cs" t="Include" />
         </e>
