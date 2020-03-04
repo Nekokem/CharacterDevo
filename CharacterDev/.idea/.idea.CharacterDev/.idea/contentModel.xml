@@ -43,6 +43,7 @@
           <e p="IDChecker.cs" t="Include" />
           <e p="INClass" t="Include">
             <e p="AnimControl.cs" t="Include" />
+            <e p="Dialog.cs" t="Include" />
             <e p="InstanceObject.cs" t="Include" />
           </e>
           <e p="LightData.cs" t="Include" />
@@ -57,6 +58,11 @@
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="TriggerEvent.cs" t="Include" />
+        </e>
+        <e p="UI" t="Include">
+          <e p="StringListData.cs" t="Include" />
+          <e p="TextBehavior.cs" t="Include" />
+          <e p="TextController.cs" t="Include" />
         </e>
       </e>
       <e p="CharacterDev.sln" t="IncludeFlat" />
