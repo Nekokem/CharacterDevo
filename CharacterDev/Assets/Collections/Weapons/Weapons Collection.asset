@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676ae77e130d34a82a3680f5f7cc21f1, type: 3}
+  m_Name: Weapons Collection
+  m_EditorClassIdentifier: 
+  collectiblesList:
+  - {fileID: 11400000, guid: a794a5ebb86fd462db13643ea446b7da, type: 2}
+  - {fileID: 11400000, guid: f2f8a22ca76d848038176cbab5cfb7d7, type: 2}
+  - {fileID: 11400000, guid: 711c2ad9ae2b04de8a5de137df6b01c8, type: 2}
+  - {fileID: 11400000, guid: a794a5ebb86fd462db13643ea446b7da, type: 2}
+  - {fileID: 11400000, guid: e418c01bb053945db820102a66606957, type: 2}
